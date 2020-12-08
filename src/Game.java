@@ -1,4 +1,4 @@
-//// class used for actual game
+// class used for actual game
 public class Game extends GridWithShips {
 
     static GridWithFog[] gridWithFog = new GridWithFog[2];
