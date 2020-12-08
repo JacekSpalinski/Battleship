@@ -8,10 +8,11 @@ public class GridWithShips {
     static final int N = 10; // size of a battlefield
     static final int LC = 65; // used for letter char to convert into meaningful numbers according to ASCII
     static final int NC = 49; // used to number char to convert into meaningful numbers according to ASCII
-    String[][] grid = new String[N][N];
+    String[][] grid;
     Ship[] ships;
 
     GridWithShips(int player) {
+        grid = new String[N][N];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 grid[i][j] = "~";
